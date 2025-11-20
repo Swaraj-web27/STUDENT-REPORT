@@ -52,8 +52,12 @@ search_again:
             if (a == 'Y' || a == 'y') {
                 goto search_again;
             }
+            else{
+                goto THANK_YOU;
+            }
         }
     }
+THANK_YOU:
     printf("\nTHANK YOU!");
     return 0;
 }
